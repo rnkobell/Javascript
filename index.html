@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>ストップウォッチ</title>
+  </head>
+
+  <body>
+    <h3>ストップウォッチ</h3>
+
+    <div class="time stopwatch">0:0:0:0</div>
+
+    <div>
+      <button class="button start_btn" onclick="start()">スタート</button>
+      <button class="button stop_btn" onclick="stop()" disabled>ストップ</button>
+      <button class="button reset_btn" onclick="reset()" disabled>リセット</button>
+    </div>
+
+
+    <h3>電卓</h3>
+
+    <div class="display_result">0</div>
+    <div>
+      <table>
+      <button class="btn number_btn" onclick="get_number()">7</button>
+      <button class="btn number_btn" onclick="get_number()">8</button>
+      <button class="btn number_btn" onclick="get_number()">9</button>
+      <button class="btn calc_btn" onclick="get_calc()">+</button>
+      <br>
+      <button class="btn number_btn" onclick="get_number()">4</button>
+      <button class="btn number_btn" onclick="get_number()">5</button>
+      <button class="btn number_btn" onclick="get_number()">6</button>
+      <button class="btn calc_btn" onclick="get_calc()">-</button>
+      <br>
+      <button class="btn number_btn" onclick="get_number()">1</button>
+      <button class="btn number_btn" onclick="get_number()">2</button>
+      <button class="btn number_btn" onclick="get_number()">3</button>
+      <button class="btn calc_btn" onclick="get_calc()">×</button>
+      <br>
+      <button class="btn number_btn" onclick="get_number()">0</button>
+      <button class="btn number_btn" onclick="get_number()">00</button>
+      <button class="btn number_btn" onclick="get_number()">.</button>
+      <button class="btn calc_btn" onclick="get_calc()">÷</button>
+      <br>
+      <button class="btn c_btn" onclick="get_c()">AC</button>
+      <button class="btn equal_btn" onclick="get_equal()">=</button>
+      </table>
+    </div>
+
+
+    <script src="main.js"></script>
+
+
+  </body>
+</html>

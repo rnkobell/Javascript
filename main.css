@@ -1,0 +1,93 @@
+/*ストップウォッチ*/
+
+.stopwatch {
+    background: #222;
+    color: #0f0;
+    font-size: 2rem;
+    text-align: right;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+.button{
+    background: #ddd;
+    margin: 10px 5px;
+    padding: 10px 10px;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:disabled {
+    background-color: #777;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: #bbb;
+}
+
+
+
+
+/*電卓*/
+
+.display_result {
+    background: #222;
+    color: #0f0;
+    font-size: 2rem;
+    text-align: right;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    max-width: 220px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.number_btn {
+    background: #ddd;
+}
+
+.number_btn:hover {
+    background: #e6e6e6;
+}
+
+.calc_btn {
+    background: #ff9500;
+    color: white;
+}
+
+.calc_btn:hover {
+    background: #e68a00;
+}
+
+.equal_btn {
+    background: #34c759;
+    color: white;
+    width: 110px;
+}
+
+.equal_btn:hover {
+    background: #2ea94e;
+}
+
+.c_btn {
+    background: #ff3b30;
+    color: white;
+    width: 110px;
+}
+
+.c_btn:hover {
+    background: #e63228;
+}
